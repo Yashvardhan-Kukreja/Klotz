@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Klotz</string>
+    <string name="forgot_details">Forgot your details? Click here</string>
+    <string name="facebook_app_id">728946193969704</string>
+    <string name="fb_login_protocol_scheme">fb728946193969704</string>
+    <string name="base_url">https://klotz.herokuapp.com</string>
+</resources>

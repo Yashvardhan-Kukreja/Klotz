@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cubebg"
+        android:alpha="0.2"
+        android:scaleType="centerCrop"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logoblock"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textSize="30sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#dbdbdb" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/registerFirstName"
+                android:hint="Enter your first name"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#dbdbdb"
+                android:textSize="13sp"
+                android:alpha="0.9"
+                android:background="@drawable/rounded"
+                android:backgroundTint="#ffffff" />
+
+            <EditText
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/registerLastName"
+                android:hint="Enter your last name"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:textColorHint="#dbdbdb"
+                android:textSize="13sp"
+                android:alpha="0.9"
+                android:background="@drawable/rounded"/>
+
+            <EditText
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#ffffff"
+                android:id="@+id/registerEmail"
+                android:hint="Enter your E-mail ID"
+                android:inputType="textEmailAddress"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#dbdbdb"
+                android:textSize="13sp"
+                android:alpha="0.9"
+                android:background="@drawable/rounded"/>
+
+            <EditText
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/registerPassword"
+                android:hint="Enter the password"
+                android:inputType="textPassword"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#dbdbdb"
+                android:textSize="13sp"
+                android:alpha="0.9"
+                android:background="@drawable/rounded"/>
+
+            <EditText
+                android:backgroundTint="#ffffff"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/registerConfirmPassword"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#dbdbdb"
+                android:textSize="13sp"
+                android:alpha="0.9"
+                android:background="@drawable/rounded"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_button"
+                android:text="Sign Up"
+                android:id="@+id/signupButtonFinally"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:textSize="13sp"
+                android:textColor="#d8dadf"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "433987706595",
+    "firebase_url": "https://push-notifications-cb68c.firebaseio.com",
+    "project_id": "push-notifications-cb68c",
+    "storage_bucket": "push-notifications-cb68c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433987706595:android:6708aeed1ea0f66c",
+        "android_client_info": {
+          "package_name": "com.example.yash1300.klotz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433987706595-6cqbu4ilq8ran58lkuaqkhntcto3et68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yash1300.klotz",
+            "certificate_hash": "b69eb1b17a972ddfcd8cdcf9e3a3cd017c05d121"
+          }
+        },
+        {
+          "client_id": "433987706595-80dmv3bp4svta64658e65g5vs2u6krck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzYOyWBdlwhx-QywYugumEIU67ZX5W-0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433987706595-iv0ki2o3hcbt0pegimo7be5ui3msgb2q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.skyblue.Rubit"
+              }
+            },
+            {
+              "client_id": "433987706595-80dmv3bp4svta64658e65g5vs2u6krck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
